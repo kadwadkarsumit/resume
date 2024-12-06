@@ -1,0 +1,101 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #e9ecef 0%, #f8f9fa 100%); /* Soft gradient background */
+    color: #343a40; /* Dark text color */
+}
+
+/* Header styling */
+header {
+    background: #495057; /* Dark gray header */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6b6b; /* Coral color on hover */
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #343a40; /* Darker text for section headings */
+    border-bottom: 2px solid #ff6b6b; /* Underline effect */
+    padding-bottom: 10px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6; /* Light border for table rows */
+}
+
+th {
+    background-color: #f8f9fa; /* Light gray for header */
+    color: #495057; /* Dark gray text */
+}
+
+/* Link styling */
+a {
+    color: #007bff; text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #495057; /* Dark gray */
+    padding: 10px 0;
+    background: #f8f9fa; /* Light gray background */
+    border-top: 1px solid #dee2e6; /* Light border on top */
+}
